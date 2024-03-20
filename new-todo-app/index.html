@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDo App 2.0 - with API</title>
+</head>
+
+<body>
+    <header>
+        <h1>TODODOODoo... now with API!</h1>
+        <p>...and Hotpink Background, for your pleasure.</p>
+    </header>
+    <main>
+        <form id="input-form" class="input-form">
+            <input type="text" name="input-box" id="input-box" placeholder="Do something..." />
+            <label for="input-box" style="font-size: 0; position: absolute;">Input field for adding ToDos to the
+                list.</label>
+            <button id="btn-add-todo">Add New ToDo</button>
+        </form>
+        <h2>Filter ToDo's</h2>
+        <form class="filter" autocomplete="off" id="filters">
+            <input type="radio" name="filter-btn" id="all" value="all" checked />
+            <label for="all">All ToDos</label>
+            <input type="radio" name="filter-btn" id="open" value="open" />
+            <label for="open">Open ToDos</label>
+            <input type="radio" name="filter-btn" id="done" value="done" />
+            <label for="done">Done ToDos</label>
+        </form>
+        <h2>ToDo List</h2>
+        <form class="todolist">
+            <ul class="to-left" id="list">
+            </ul>
+        </form>
+        <form>
+            <button id="removeTodos">Remove Done ToDo's</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

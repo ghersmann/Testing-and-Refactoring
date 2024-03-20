@@ -1,0 +1,75 @@
+/* ToDo App 2.0 - with API */
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hotpink;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  width: 100vw;
+  height: 80vh;
+  margin: 0 auto;
+  padding: 2rem;
+  position: relative;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+form {
+  margin-bottom: 4rem;
+}
+
+#input-box {
+  font-family: inherit;
+  border: 0.2rem transparent;
+  height: 1.5rem;
+  width: 17rem;
+  box-shadow: 0.3rem 0.3rem black;
+}
+
+button {
+  font-family: inherit;
+  margin-left: 1rem;
+  background-color: white;
+  border-radius: 0;
+  border: 0.2rem transparent;
+  height: 1.5rem;
+  box-shadow: 0.3rem 0.3rem black;
+}
+
+ul {
+  list-style: none;
+  line-height: 2;
+  font-size: 1.2rem;
+}
+
+.to-left {
+  position: relative;
+  left: -2rem;
+}
+
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter input {
+  margin-left: 1rem;
+}
