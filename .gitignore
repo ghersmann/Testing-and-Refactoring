@@ -11,3 +11,6 @@ backup.js
 copy-paste.md
 todo-api/
 node_modules/
+cypress/fixtures/
+cypress/support/
+db.json
